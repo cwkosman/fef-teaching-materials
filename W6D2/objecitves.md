@@ -1,0 +1,39 @@
+## By now, you can
+
+  - translate a wirefame into a basic HTML document using a code editor
+  - use semantic tags and explain why they are preferable over a non-semantic tags
+  - demonstrate consistent indentation and explain why this is important to developers
+  - compose CSS selectors and identify their specificity
+  - link a stylesheet to an HTML document
+  - determine why an element would receive one style over another
+  - write CSS rules with some common properties and values
+  - Identify the components of the box model
+  - size elements using display properties, width, and height
+  - Layout elements on an HTML page using box model properties and Flexbox
+  - Style states of an element with pseudoclasses
+  - Style parts of an element with pseudoelements
+  - Write a basic CSS transition
+  - Implement media queries to make elements responsive
+  - Deploy a single page site
+  - Use console.log to print something to the screen
+  - Add integers and strings and console.log the results
+  - Declare a variable
+  - Write if statements
+  - Describe the basic anatomy of a function
+  - write objects in javascript
+  - write arrays in javascript
+  - get and set properties in javascript objects
+  - write a for loop
+  - Solve left over W4D2 problems
+  - Use jQuery to manipulate elements on a page
+  - Perform common jQuery tasks, including: 
+      - Selecting elements on a page
+      - Adding event listeners
+      - Adding and remove CSS classes
+      - Writing simple animations
+  - access and loop over nested data from within a mock response object
+  - manipulate elements on your page with jQuery methods
+  - create displays of similar data with jQuery
+  - capture user input
+  - retrieve data from a remote source
+  - use jQuery to accept more user input

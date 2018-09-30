@@ -1,0 +1,21 @@
+
+/* Common media queries*/
+
+/* The most common */
+@media (min-width: 400px) {
+  .selector {
+    /* etc */
+  }
+}
+
+@media (min-width:400px) and (max-width: 720px) {
+  .selector {
+    /* etc*/
+  }
+}
+
+@media (max-width: 1080px) {
+  .selector {
+    /*whatever */
+  }
+}

@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+*::selection {
+  color: #daffda;
+  background: #44aa44;
+}
+
+body {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inconsolata', monospace;
+}
+
+h1 {
+  font-size: 3.8em;
+}
+
+h2 {
+  font-size: 2.8em;
+  margin-top: 24px;
+}
+
+h2.home {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #00ee00;
+}
+
+a:hover {
+  color: #daffda;
+}
+
+a:visited {
+  color: #007800;
+}
+
+.bg-primary {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.bg-secondary {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.bg-secondary, .footer {
+  color: #ffffff;
+}
+
+.footer {
+  background-color:#000;
+  padding-bottom: 60px;
+}
+
+.employment__location {
+  font-weight: 300;
+}
+
+.employment__duration {
+  color: #44aa44;
+}
+
+
+/* After this lecture */
+
+div.container {
+  margin: 0 auto;
+  width: 800px;
+  padding: 54px 0;
+}
+
+.nav-primary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-primary ul {
+  display: flex;
+  margin: 0;
+}
+
+.nav-primary ul li {
+  padding-right: 12px;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list--vertical li {
+  margin-bottom: 24px;
+}
+
+.skills__list li {
+  display: flex;
+}
+
+.skills__list span {
+  flex: 1 0 0;
+  margin-bottom: 24px;
+  text-align: right;
+  padding-right: 24px;
+}
+
+.skills__list meter {
+  flex: 4 0 0;
+  margin-bottom: 24px;
+}
+
+.skills__list meter::-webkit-meter-bar {
+  background: transparent;
+}
+
+.skills__list meter::-webkit-meter-optimum-value {
+  background: linear-gradient(to right, #007800, #00ee00 50px, #00ee00 calc(100% - 50px), #daffda);
+  border-radius: 999px;
+}
+
+.employment {
+  margin-bottom: 60px;
+  width: 47%;
+  margin-right: 3%;
+}
+
+.employment__grid {
+  display: flex;
+  margin-right: -6%;
+  flex-wrap: wrap;
+}
+
+

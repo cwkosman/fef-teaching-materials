@@ -1,0 +1,17 @@
+@media (min-width: 400px) {
+  .container {
+    color: yellow;
+  }
+}
+
+@media (min-width: 800px) {
+  .container {
+    background: red;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 800px) {
+  .container {
+    background: green;
+  }
+}

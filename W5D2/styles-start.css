@@ -1,0 +1,70 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+  
+body {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+input, textarea, select, button {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 60px;
+  padding-left: 20px;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 700px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+form input {
+  border: 1px solid #eeeeee;
+  transition: border-color 0.5s ease;
+  font-size: 30px;
+  padding: 12px;
+}
+
+form input:focus {
+  outline: none;
+}
+
+form input.focus {
+  border: 1px solid #345678;
+}
+
+form button {
+  background-color: #345678;
+  color: white;
+  padding: 12px;
+  font-size: 24px;
+}
+
+.results {
+  display: none;
+}
+
+.results__placeholder {
+  text-align: center;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.footer__copy {
+  text-align: center;
+}
