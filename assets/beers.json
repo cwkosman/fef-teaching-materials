@@ -1,7 +1,7 @@
 {
   "beers": [
     {
-      "name": "Trailbreaker Pale Ale",
+      "name": "Secret Handshake",
       "brewery": {
         "name": "Backcountry Brewing",
         "location": {
@@ -10,14 +10,14 @@
           "country": "CA"
         }
       },
-      "style": "West Coast Pale Ale",
-      "hops": ["Citra", "Simcoe", "Chinook"],
-      "abv": 5.0,
-      "ibu": 35,
-      "thumbnail": "http://assets.vancouverisawesome.com/wp-content/uploads/2017/10/26141319/Backcountry-pale-ale.jpg"
+      "style": "North East IPA",
+      "hops": ["Vic Secret", "Rakau", "Waimea"],
+      "abv": 6.7,
+      "ibu": 50,
+      "thumbnail": "https://pbs.twimg.com/media/DWHHVERWAAATw7f.jpg"
     },
     {
-      "name": "Space Coyote India Pale Ale",
+      "name": "Space Coyote",
       "brewery": {
         "name": "Counter Weight Brewing Company",
         "location": {
@@ -30,7 +30,7 @@
       "hops": ["Galaxy", "Mosaic"],
       "abv": 6.0,
       "ibu": 50,
-      "thumbnail": "https://scontent-sea1-1.cdninstagram.com/t51.2885-15/e35/24177490_560619850948174_2924998626952347648_n.jpg"
+      "thumbnail": "https://pbs.twimg.com/media/DKQ8JPAXcAEvFfD.jpg"
     }
   ]
 }

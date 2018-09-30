@@ -1,1 +1,93 @@
-styles-W5D1.css
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+input, textarea, select, button {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 60px;
+  padding-left: 20px;
+}
+
+main {
+  width: 100%;
+}
+
+form {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  border: 1px solid #eeeeee;
+  transition: border-color 0.5s ease;
+  font-size: 30px;
+  padding: 12px;
+}
+
+input:focus {
+  outline: none;
+}
+
+input.focus {
+  border: 1px solid #345678;
+}
+
+button {
+  background-color: #345678;
+  color: white;
+  padding: 12px;
+  font-size: 24px;
+}
+
+.search-again {
+  display: none;
+  margin: 0px auto 20px;
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.result {
+  flex: 0 0 25%;
+  padding: 0 12px;
+  margin: 24px 0;
+}
+
+.result {
+  max-width: 100%;
+}
+
+.drink__thumb {
+  width: 100%;
+}
+
+.drink__thumb {
+  width: 100%;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.footer__copy {
+  text-align: center;
+}

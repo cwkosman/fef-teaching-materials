@@ -1,7 +1,7 @@
 var response = {
   "beers": [
     {
-      "name": "Trailbreaker Pale Ale",
+      "name": "Secret Handshake",
       "brewery": {
         "name": "Backcountry Brewing",
         "location": {
@@ -10,14 +10,14 @@ var response = {
           "country": "CA"
         }
       },
-      "style": "West Coast Pale Ale",
-      "hops": ["Citra", "Simcoe", "Chinook"],
-      "abv": 5.0,
-      "ibu": 35,
-      "thumbnail": "http://assets.vancouverisawesome.com/wp-content/uploads/2017/10/26141319/Backcountry-pale-ale.jpg"
+      "style": "North East IPA",
+      "hops": ["Vic Secret", "Rakau", "Waimea"],
+      "abv": 6.7,
+      "ibu": 50,
+      "thumbnail": "https://pbs.twimg.com/media/DWHHVERWAAATw7f.jpg"
     },
     {
-      "name": "Space Coyote India Pale Ale",
+      "name": "Space Coyote",
       "brewery": {
         "name": "Counter Weight Brewing Company",
         "location": {
@@ -30,27 +30,38 @@ var response = {
       "hops": ["Galaxy", "Mosaic"],
       "abv": 6.0,
       "ibu": 50,
-      "thumbnail": "https://scontent-sea1-1.cdninstagram.com/t51.2885-15/e35/24177490_560619850948174_2924998626952347648_n.jpg"
+      "thumbnail": "https://pbs.twimg.com/media/DKQ8JPAXcAEvFfD.jpg"
     }
   ]
 }
+  
 
-function printBeers(response) {
+function renderDrinks(response) {
   for (var i = 0; i < response.beers.length; i++) {
-    $('<div>')
-      .append('<p class="beer-name">' + response.beers[i].name + '</p>')
-      .append('<p class="beer-style">' + response.beers[i].style + '</p>')
+    $('<div class="result">')
+      .append('<img class="drink__thumb" src="' + response.beers[i].thumbnail + '"/>')
+      .append('<h3 class="drink__name">' + response.beers[i].name + '</h3>')
+      .append('<p class="drink__body">' + response.beers[i].style + '</p>')
       .appendTo('.results');
   }
+  $('form').hide();
+  $('.results').show();
+  $('#search-again').show();
 }
 
 $(document).ready(function() {
   $('form').on('submit', function(event) {
     event.preventDefault();
-    printBeers(response);
+    renderDrinks(response);
   })
 
   $('form input').on('focus blur', function() {
     $(this).toggleClass('focus');
+  })
+
+  $('#search-again').on('click', function() {
+    $('.results').html('');
+    $(this).hide();
+    $('form').show();
   })
 });

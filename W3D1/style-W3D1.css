@@ -81,13 +81,10 @@ a:visited {
   color: #44aa44;
 }
 
-
-/* After this lecture */
-
-div.container {
+.container {
   margin: 0 auto;
-  width: 800px;
-  padding: 54px 0;
+  padding: 60px 0;
+  width: 1000px;
 }
 
 .nav-primary {

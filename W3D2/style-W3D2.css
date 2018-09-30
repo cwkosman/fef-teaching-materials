@@ -83,10 +83,10 @@ a:visited {
 }
 
 
-div.container {
+.container {
   margin: 0 auto;
+  padding: 60px 36px;
   max-width: 1000px;
-  padding: 54px 36px;
 }
 
 .nav-primary {
