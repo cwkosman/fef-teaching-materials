@@ -1,6 +1,6 @@
 ## By now, you can
 
-  - translate a wirefame into a basic HTML document using a code editor
+  - translate a wireframe into a basic HTML document using a code editor
   - use semantic tags and explain why they are preferable over a non-semantic tags
   - demonstrate consistent indentation and explain why this is important to developers
   - compose CSS selectors and identify their specificity
@@ -10,8 +10,8 @@
   - Identify the components of the box model
   - size elements using display properties, width, and height
   - Layout elements on an HTML page using box model properties and Flexbox
-  - Style states of an element with pseudoclasses
-  - Style parts of an element with pseudoelements
+  - Style states of an element with pseudo-classes
+  - Style parts of an element with pseudo-elements
   - Write a basic CSS transition
   - Implement media queries to make elements responsive
   - Deploy a single page site
