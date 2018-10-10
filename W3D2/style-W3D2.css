@@ -26,7 +26,7 @@ h2 {
   margin-top: 24px;
 }
 
-h2.home {
+.home {
   font-size: 1.6em;
   display: none;
 }

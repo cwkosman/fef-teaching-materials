@@ -26,7 +26,7 @@ h2 {
   margin-top: 24px;
 }
 
-h2.home {
+.home {
   font-size: 1.6em;
 }
 
@@ -44,14 +44,22 @@ li {
 
 a {
   color: #00ee00;
+  transition: color 250ms ease-out;
 }
 
 a:hover {
   color: #daffda;
+  transition: color 250ms ease-in;
 }
 
 a:visited {
   color: #007800;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 60px 0;
+  width: 1000px;
 }
 
 .bg-primary {
@@ -59,16 +67,8 @@ a:visited {
   color: #ffffff;
 }
 
-.bg-secondary {
-  background-color: #333333;
-  color: #ffffff;
-}
-
-.bg-secondary, .footer {
-  color: #ffffff;
-}
-
 .footer {
+  color: #ffffff;
   background-color:#000;
   padding-bottom: 60px;
 }
@@ -79,12 +79,6 @@ a:visited {
 
 .employment__duration {
   color: #44aa44;
-}
-
-.container {
-  margin: 0 auto;
-  padding: 60px 0;
-  width: 1000px;
 }
 
 .nav-primary {
