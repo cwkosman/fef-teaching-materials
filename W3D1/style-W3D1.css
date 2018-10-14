@@ -138,7 +138,6 @@ a:visited {
 
 .employment__grid {
   display: flex;
-  margin-right: -6%;
   flex-wrap: wrap;
 }
 
