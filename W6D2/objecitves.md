@@ -7,26 +7,26 @@
   - link a stylesheet to an HTML document
   - determine why an element would receive one style over another
   - write CSS rules with some common properties and values
-  - Identify the components of the box model
+  - identify the components of the box model
   - size elements using display properties, width, and height
-  - Layout elements on an HTML page using box model properties and Flexbox
-  - Style states of an element with pseudo-classes
-  - Style parts of an element with pseudo-elements
-  - Write a basic CSS transition
-  - Implement media queries to make elements responsive
-  - Deploy a single page site
-  - Use console.log to print something to the screen
-  - Add integers and strings and console.log the results
-  - Declare a variable
-  - Write if statements
-  - Describe the basic anatomy of a function
+  - layout elements on an HTML page using box model properties and Flexbox
+  - style states of an element with pseudo-classes
+  - style parts of an element with pseudo-elements
+  - write a basic CSS transition
+  - implement media queries to make elements responsive
+  - deploy a single page site
+  - use console.log to print something to the screen
+  - add integers and strings and console.log the results
+  - declare a variable
+  - write if statements
+  - describe the basic anatomy of a function
   - write objects in javascript
   - write arrays in javascript
   - get and set properties in javascript objects
   - write a for loop
-  - Solve left over W4D2 problems
-  - Use jQuery to manipulate elements on a page
-  - Perform common jQuery tasks, including: 
+  - solve left over W4D2 problems
+  - use jQuery to manipulate elements on a page
+  - perform common jQuery tasks, including: 
       - Selecting elements on a page
       - Adding event listeners
       - Adding and remove CSS classes

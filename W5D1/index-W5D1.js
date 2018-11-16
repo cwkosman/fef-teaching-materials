@@ -1,11 +1,9 @@
 $(document).ready(function() {
-  $('form').on('submit', function(event) {
+  function showResults(event) {
     event.preventDefault();
     $(this).slideUp();
     $('.results').slideDown();
-  })
+  }
 
-  $('form input').on('focus blur', function() {
-    $(this).toggleClass('focus');
-  })
+  $('form').on('submit', showResults);
 });

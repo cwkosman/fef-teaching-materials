@@ -4,5 +4,5 @@
 - Perform common jQuery tasks, including: 
     - Selecting elements on a page
     - Adding event listeners
-    - Adding and remove CSS classes
-    - Writing simple animations
+    - Adding and removing CSS classes
+    - Executing simple animations

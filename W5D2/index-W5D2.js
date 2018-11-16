@@ -34,34 +34,35 @@ var response = {
     }
   ]
 }
-  
-
-function renderDrinks(response) {
-  for (var i = 0; i < response.beers.length; i++) {
-    $('<div class="result">')
-      .append('<img class="drink__thumb" src="' + response.beers[i].thumbnail + '"/>')
-      .append('<h3 class="drink__name">' + response.beers[i].name + '</h3>')
-      .append('<p class="drink__body">' + response.beers[i].style + '</p>')
-      .appendTo('.results');
-  }
-  $('form').hide();
-  $('.results').show();
-  $('#search-again').show();
-}
 
 $(document).ready(function() {
-  $('form').on('submit', function(event) {
+  
+  // Define functions
+  function showResults(event) {
     event.preventDefault();
     renderDrinks(response);
-  })
+  }
 
-  $('form input').on('focus blur', function() {
-    $(this).toggleClass('focus');
-  })
-
-  $('#search-again').on('click', function() {
+  function resetSearch() {
     $('.results').html('');
     $(this).hide();
     $('form').show();
-  })
+  }
+
+  function renderDrinks(response) {
+    for (var i = 0; i < response.beers.length; i++) {
+      $('<div class="result">')
+        .append('<img class="drink__thumb" src="' + response.beers[i].thumbnail + '"/>')
+        .append('<h3 class="drink__name">' + response.beers[i].name + '</h3>')
+        .append('<p class="drink__body">' + response.beers[i].style + '</p>')
+        .appendTo('.results');
+    }
+    $('form').hide();
+    $('.results').show();
+    $('#search-again').show();
+  }
+
+  // Bind event handlers
+  $('form').on('submit', showResults );
+  $('#search-again').on('click', resetSearch);
 });
